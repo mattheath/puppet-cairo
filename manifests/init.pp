@@ -6,12 +6,24 @@
 #
 class cairo {
 
-  require homebrew
-  require pkgconfig
-  require xz
-  require pixman
-  require libpng
+  include homebrew
+  include pkgconfig
+  include xz
+  include pixman
+  include libpng
 
-  package { 'cairo': }
+  homebrew::formula { 'cairo':
+    source => 'puppet:///modules/cairo/brews/cairo.rb',
+  }
+
+  package { 'boxen/brews/cairo':
+    ensure  => '1.12.14-boxen1',
+    require => [
+      Package['pkg-config'],
+      Package['xz'],
+      Package['pixman'],
+      Package['libpng'],
+    ]
+  }
 
 }
