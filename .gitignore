@@ -11,4 +11,6 @@
 /spec/fixtures/modules/pkgconfig/
 /spec/fixtures/modules/stdlib/
 /spec/fixtures/modules/xz/
+/spec/fixtures/modules/python/
+/spec/fixtures/modules/xquartz/
 /spec/fixtures/vendor
