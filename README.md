@@ -18,3 +18,5 @@ include cairo
 * `xz`
 * `pixman`
 * `libpng`
+
+If using the python bindings, then the `python` module (and therefore `xquartz`) is also required
