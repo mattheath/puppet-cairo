@@ -1,7 +1,8 @@
-mod 'boxen', '2.1.0', :github_tarball => 'boxen/puppet-boxen'
-mod 'stdlib', '4.0.0', :github_tarball => "puppetlabs/puppetlabs-stdlib"
-mod 'homebrew', '1.4.1', :github_tarball => 'boxen/puppet-homebrew'
-mod 'pkgconfig', '1.0.0', :github_tarball => 'boxen/puppet-pkgconfig'
-mod 'xz', '1.0.0', :github_tarball => 'boxen/puppet-xz'
-mod 'pixman', '1.0.0', :github_tarball => 'mattheath/puppet-pixman'
-mod 'libpng', '1.0.0', :github_tarball => 'mattheath/puppet-libpng'
+mod 'boxen',      '2.1.0', :github_tarball => 'boxen/puppet-boxen'
+mod 'repository', '2.2.0', :github_tarball => 'boxen/puppet-repository'
+mod 'stdlib',     '4.0.0', :github_tarball => "puppetlabs/puppetlabs-stdlib"
+mod 'homebrew',   '1.4.1', :github_tarball => 'boxen/puppet-homebrew'
+mod 'pkgconfig',  '1.0.0', :github_tarball => 'boxen/puppet-pkgconfig'
+mod 'xz',         '1.0.0', :github_tarball => 'boxen/puppet-xz'
+mod 'pixman',     '1.0.0', :github_tarball => 'mattheath/puppet-pixman'
+mod 'libpng',     '1.0.0', :github_tarball => 'mattheath/puppet-libpng'
