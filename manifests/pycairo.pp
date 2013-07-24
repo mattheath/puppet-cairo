@@ -17,7 +17,7 @@ class cairo::pycairo {
   package { 'boxen/brews/py2cairo':
     ensure  => '1.10.0-boxen1',
     require => [
-      Package['cairo'],
+      Package['boxen/brews/cairo'],
       Class['python'],
     ]
   }
