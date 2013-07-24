@@ -14,5 +14,6 @@ include cairo
 
 * `boxen`
 * `homebrew`
+* `pkgconfig`
 * `xz`
 * `pixman`

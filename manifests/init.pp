@@ -7,6 +7,7 @@
 class cairo {
 
   require homebrew
+  require pkgconfig
   require xz
   require pixman
 
