@@ -17,3 +17,4 @@ include cairo
 * `pkgconfig`
 * `xz`
 * `pixman`
+* `libpng`

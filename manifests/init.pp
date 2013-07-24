@@ -10,6 +10,7 @@ class cairo {
   require pkgconfig
   require xz
   require pixman
+  require libpng
 
   package { 'cairo': }
 
