@@ -4,4 +4,10 @@
 /spec/fixtures/.tmp
 /spec/fixtures/Puppetfile.lock
 /spec/fixtures/modules/boxen/
+/spec/fixtures/modules/homebrew/
+/spec/fixtures/modules/libpng/
+/spec/fixtures/modules/pixman/
+/spec/fixtures/modules/pkgconfig/
+/spec/fixtures/modules/stdlib/
+/spec/fixtures/modules/xz/
 /spec/fixtures/vendor
