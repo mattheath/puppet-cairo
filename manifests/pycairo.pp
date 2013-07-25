@@ -22,4 +22,12 @@ class cairo::pycairo {
     ]
   }
 
+  # Link cairo into the correct package directory, there is probably a better way
+
+  file { "${homebrew::config::libdir}/python2.7/site-packages/cairo":
+    ensure  => link,
+    target  => "#{homebrew::config::installdir}/Cellar/py2cairo/1.10.0-boxen1/lib/python2.7/site-packages/cairo",
+    require => Package['boxen/brews/py2cairo'],
+  }
+
 }
